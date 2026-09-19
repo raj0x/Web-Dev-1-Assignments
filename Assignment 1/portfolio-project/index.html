@@ -1,0 +1,111 @@
+<!-- Web Dev I - Lab Assignment 1 - Personal Portfolio Website - index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raj Gupta - Portfolio</title>
+</head>
+<body>
+
+  <a href="#main">Skip to main content</a>
+
+  <header>
+    <h1>Raj Gupta</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section id="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hello! I am a Web Development student. This is my personal portfolio website.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="../images/my_image.png" alt="Profile photo of Raj Gupta" width="150" height="150">
+      <p>I am a first-year B.Tech Computer Science and Engineering student at K.R. Mangalam University. I'm interested in programming, problem-solving, and web development, and I'm working on building a strong foundation in computer science.</p>
+      <p>Right now I'm learning C++, Python, and HTML, and I've started exploring Data Structures and Algorithms. I like learning by actually writing code, building small projects, and keeping my notes organized as I go.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li><strong>Personal Portfolio Website</strong> - A one-page portfolio built using semantic HTML for my Web Development I assignment.</li>
+        <li><strong>HTML Form Project</strong> - A university-style registration form built to practice HTML forms, labels, input types, and validation attributes.</li>
+        <li><strong>C++ Programming Practice</strong> - A set of beginner C++ programs covering loops, functions, arrays, and basic sorting problems.</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>Learning</td>
+          </tr>
+          <tr>
+            <td>Git & GitHub</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Data Structures & Algorithms</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name"
+          minlength="3" maxlength="50" size="25" required> <br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" 
+          maxlength="100" size="30" required> <br><br>
+      
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="30" minlength="10" 
+          maxlength="500" placeholder="Enter your message" required></textarea> <br><br>
+      
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Raj Gupta. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
